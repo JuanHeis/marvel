@@ -1,0 +1,28 @@
+.header-menu{
+    background-color: #202020;
+    color: #fff;
+}
+.header-menu:hover{
+    color: gray;
+}
+.desktop-header-menu{
+    font: 900 12px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 1200px;
+}
+.item-menu{
+    transition: color 0.3s ease;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2px;
+    padding: 1em;
+}
+.item-menu:hover{
+    margin-bottom: 0px;
+    color: #fff;
+    border-bottom: 2px solid red;
+}
