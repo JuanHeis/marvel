@@ -1,0 +1,36 @@
+.header{
+    background-color: #202020;
+    color: #fff;
+}
+.desktop-header{
+    font: 900 12px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: auto;
+    max-width: 1200px;
+    
+    border-bottom: 1px solid rgb(54, 54, 54);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.access-buttons, .search-button, .logo-marvel{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.access-buttons, .search-button{
+    word-wrap: none;
+    padding: 2em;
+    border-left: 1px solid rgb(54, 54, 54);
+    border-right: 1px solid rgb(54, 54, 54);
+}
+.logo-marvel{
+    margin: 0;
+    height: 61px;
+    vertical-align: bottom;
+}
+.logo-marvel img{
+    height: 100%;
+    vertical-align: bottom;
+}
