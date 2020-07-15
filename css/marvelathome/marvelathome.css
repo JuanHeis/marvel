@@ -1,0 +1,20 @@
+.athome-container{
+    margin: auto;
+}
+.athome-title{
+    text-transform: uppercase;
+    margin: 2em 0 2em;
+    font-size: 2em;
+    grid-column: 1/5;
+    grid-row: 1;
+}
+.fakeimage{
+    height: 200px;
+    background-color: teal;
+}
+.athome-image-title{
+    grid-row: 3;
+}
+.athome-image-description{
+    grid-row: 4;
+}
