@@ -1,4 +1,9 @@
 body, html{
     padding: 0;
     margin: 0;
+    font: 900 12px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    
+}
+.wrapper1200{
+    max-width: 1200px;
 }

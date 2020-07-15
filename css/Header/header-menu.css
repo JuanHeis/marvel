@@ -12,7 +12,6 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    max-width: 1200px;
 }
 .item-menu{
     transition: color 0.3s ease;

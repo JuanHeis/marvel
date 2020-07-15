@@ -1,7 +1,6 @@
 .header{
     background-color: #202020;
     color: #fff;
-
     border-bottom: 1px solid rgb(54, 54, 54);
 }
 .desktop-header{
@@ -9,7 +8,6 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     margin: auto;
-    max-width: 1200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,6 +22,10 @@
     padding: 2em;
     border-left: 1px solid rgb(54, 54, 54);
     border-right: 1px solid rgb(54, 54, 54);
+}
+.creditcard img {
+    height: 1.5em;
+    vertical-align: bottom;
 }
 .logo-marvel{
     margin: 0;

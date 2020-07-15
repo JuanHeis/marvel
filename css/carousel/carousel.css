@@ -1,0 +1,60 @@
+.carousel{
+    background-image: url('https://i.annihil.us/u/prod/marvel/images/OpenGraph-TW-1200x630.jpg');
+    background-color: white;
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+    position: relative;
+    z-index: -5;
+}
+.cover-section{
+    
+}
+.cover-container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 65vh;
+    color: white;
+}
+.streaming{
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+    background-color: #202020;
+    width: 100%;
+    text-align: center;
+}
+.announcement-title{
+    font-size: 4em;
+    text-transform: uppercase;
+}
+.announcement-clue{
+    font-size: 1.5em;
+}
+.announcement-button{
+    border-radius: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: red;
+    padding: 1em 2.5em 1em;
+    clip-path: polygon(0 0, 80% 0, 100% 20%, 100% 100%, 20% 100%, 0 80%);
+}
+.carousel-nav{
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 50px;
+    align-items: center;
+}
+.carousel-nav ol{
+    z-index: 5;
+    padding-bottom: 1.5em;
+    background-color: white;
+    font-size: 1.5em;
+    padding-right: 4em;
+}
