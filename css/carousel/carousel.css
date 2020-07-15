@@ -6,7 +6,8 @@
     z-index: -5;
 }
 .cover-section{
-    
+    position: absolute;
+    width: 100%;
 }
 .cover-container{
     margin: auto;
@@ -43,18 +44,26 @@
     clip-path: polygon(0 0, 80% 0, 100% 20%, 100% 100%, 20% 100%, 0 80%);
 }
 .carousel-nav{
+    padding-left: 2em;
+    padding-right: 2em;
     border: 1px solid red;
-    margin: auto;
+    margin-left: auto;
+    width: auto;
     display: flex;
     flex-direction: row;
     position: relative;
-    bottom: 50px;
+    bottom: 55px;
     align-items: center;
 }
-.carousel-nav ol{
-    z-index: 5;
-    padding-bottom: 1.5em;
+.item-carousel-nav{
+    word-wrap: wrap;
     background-color: white;
-    font-size: 1.5em;
-    padding-right: 4em;
+    z-index: 5;
+    min-width: 125px;
+    width: 13%;
+    padding: 20px 10px 20px 0;
+}
+.item-carousel-nav p{
+    height: 100%;
+    margin: 0;
 }
