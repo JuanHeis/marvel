@@ -40,7 +40,7 @@
     border: 0;
     background-color: #e62429;
     padding: 1em 2.5em 1em;
-    clip-path: polygon(0 0, 100% 100%, 20% 100%, 80% 0, 100% 20%, 0 80%);
+    clip-path: polygon(0 0, 80% 0, 100% 20%, 100% 100%, 20% 100%, 0 80%);
 
 }
 .carousel-nav{
