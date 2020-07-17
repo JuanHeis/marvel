@@ -1,6 +1,7 @@
 .carousel{
-    background-image: url('https://i.annihil.us/u/prod/marvel/images/OpenGraph-TW-1200x630.jpg');
+    background-image: url('https://i.ytimg.com/vi/MPTaUV6gVg8/maxresdefault.jpg');
     background-color: white;
+    background-size: cover;
     clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
     position: relative;
     z-index: -5;

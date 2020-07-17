@@ -17,3 +17,7 @@ body, html{
     grid-template-rows: auto auto auto;
     grid-gap: 10px;
 }
+
+.wrapper1240{
+    max-width: 1240px;
+}
