@@ -1,41 +1,62 @@
 .banner{
     background-color: #151515;
     clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
-    height: 560px;
+    height: 55vh;
     position: relative;
-}
-.banner-image{
-    background-position: right;
     background-repeat: no-repeat;
-    background-size: 55%;
+    background-position: right;
+    background-size: contain;
+    
+}
+
+.banner-relleno{
+    margin-right: auto;
+    width: 100px;
     height: 100%;
-    width: 100%;
+    background-color: #151515;
+    clip-path: polygon(0 0, 0 0, 100% 100%, 0% 100%);
 }
 #digital-comics{
     display: block;
 }
+
 .info-banner{
+    background-color: #151515;
     height: 100%;
     justify-self: left;
     max-width: 500px;
-    margin-right: auto;
     padding-left: 50px;
     color: whitesmoke;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid green;
+}
+.info-banner-description{
+    font-weight: 200;
+    margin-bottom: 2rem;
 }
 .info-banner-title{
     font-size: 2rem;
+    margin-bottom: .5em;
 }
-
+.info-banner-logo{
+    margin-bot: .5rem;
+}
+.info-banner-button{
+    border: 1px solid white;
+    background-color: #151515;
+    color: white;
+    text-transform: uppercase;
+    padding: 1em;
+    width: 150px;
+}
 .digital-comics-custom-img{
     background-image: url('https://terrigen-cdn-dev.marvel.com/content/prod/1x/june_free_marvel_unlimited_comics_02.jpg');
 }
 .banner-container{
+    display: flex;
+    flex-direction: row;
     height: 100%;
-    border: 1px solid red;
     position: relative;
     margin: auto;
 }
