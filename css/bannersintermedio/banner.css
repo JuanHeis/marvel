@@ -60,3 +60,14 @@
     position: relative;
     margin: auto;
 }
+.grid-container{
+    position: relative;
+    bottom: 50px;
+    margin: auto;
+}
+.grid-margin{
+    margin: auto;
+    padding: 25px;
+    margin-left: 25px;
+    background-color: white;
+}
