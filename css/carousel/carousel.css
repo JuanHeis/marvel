@@ -1,10 +1,10 @@
 .carousel{
-    background-image: url('https://i.ytimg.com/vi/MPTaUV6gVg8/maxresdefault.jpg');
-    background-color: white;
+    background-image: url('https://terrigen-cdn-dev.marvel.com/content/prod/1x/storyboards_0720_com_mas_dsk_01.jpg');
+    background-color: black;
     background-size: cover;
     clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
     position: relative;
-    z-index: -5;
+    z-index: 0;
 }
 .cover-section{
     width: 100%;
@@ -17,6 +17,15 @@
     height: 65vh;
     color: white;
 }
+.background-annoucement{
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.5018382352941176) 0%, rgba(0,0,0,0) 50%);
+}
 .streaming{
     font-weight: 300;
     color: white;
@@ -27,14 +36,19 @@
     width: 100%;
     text-align: center;
 }
+.announcement{
+}
 .announcement-title{
+    z-index: 100;
     font-size: 4em;
     text-transform: uppercase;
 }
 .announcement-clue{
+    z-index: 100;
     font-size: 1.5em;
 }
 .announcement-button{
+    z-index: auto;
     border-radius: 0;
     font-weight: 700;
     text-transform: uppercase;
@@ -53,16 +67,171 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    bottom: 55px;
+    bottom: 60px;
 }
 .item-carousel-nav{
     background-color: white;
     z-index: 5;
     min-width: 125px;
     width: 13%;
-    padding: 20px 10px 25px 0;
+    height: 100%;
+    padding: 0px 10px 25px 0;
 }
 .item-carousel-nav p{
     height: 100%;
     margin: 0;
+}
+.item{
+    height: 5px;
+    margin-bottom: 15px;
+    background-color: red;
+}
+.item1{
+    animation: borde-boton1;
+    
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.item2{
+    animation: borde-boton2;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.item3{
+    animation: borde-boton3;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.item4{
+    animation: borde-boton4;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.item5{
+    animation: borde-boton5;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+/*Animacion*/
+
+
+@keyframes borde-boton1{
+    0%{
+        width: 0%;
+    }
+    20%{
+        width: 100%;
+    }
+    20.001%{
+        width: 0%;
+    }
+    40%{
+        width: 0%;
+    }
+    60%{
+        width: 0%;
+    }
+    80%{
+        width: 0%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+
+@keyframes borde-boton2{
+    0%{
+        width: 0%;
+    }
+    20%{
+        width: 0%;
+    }
+    40%{
+        width: 100%;
+    }
+    40.001%{
+        width: 0%;
+    }
+    60%{
+        width: 0%;
+    }
+    80%{
+        width: 0%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+@keyframes borde-boton3{
+    0%{
+        width: 0%;
+    }
+    20%{
+        width: 0%;
+    }
+    40%{
+        width: 0%;
+    }
+    60%{
+        width: 100%;
+    }
+    60.001%{
+        width: 0%;
+    }
+    80%{
+        width: 0%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+@keyframes borde-boton4{
+    0%{
+        width: 0%;
+    }
+    20%{
+        width: 0%;
+    }
+    40%{
+        width: 0%;
+    }
+    60%{
+        width: 0%;
+    }
+    80%{
+        width: 100%;
+    }
+    80.001%{
+        width: 0%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+@keyframes borde-boton5{
+    0%{
+        width: 0%;
+    }
+    20%{
+        width: 0%;
+    }
+    40%{
+        width: 0%;
+    }
+    60%{
+        width: 0%;
+    }
+    80%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
 }
