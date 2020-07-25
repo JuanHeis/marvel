@@ -4,6 +4,10 @@ body, html{
     font: 900 16px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
     
 }
+
+.sticky-menu{
+    position: sticky;
+}
 .wrapper1200{
     max-width: 1200px;
 }

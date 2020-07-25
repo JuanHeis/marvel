@@ -9,10 +9,14 @@
     grid-row: 1;
 }
 .athome-image-title{
+    text-transform: uppercase;
     grid-row: 3;
     color: #999;
 }
 .athome-image-description{
     grid-row: 4;
     color: #151515;
+}
+.red-title{
+    color: red !important;
 }
