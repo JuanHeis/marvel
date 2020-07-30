@@ -36,6 +36,7 @@
     margin-bottom: 2rem;
 }
 .info-banner-title{
+    text-transform: uppercase;
     font-size: 2rem;
     margin-bottom: .5em;
 }
@@ -49,9 +50,6 @@
     text-transform: uppercase;
     padding: 1em;
     width: 150px;
-}
-.digital-comics-custom-img{
-    background-image: url('https://terrigen-cdn-dev.marvel.com/content/prod/1x/newmu_base_set_dsk.jpg');
 }
 .banner-container{
     display: flex;
@@ -71,3 +69,38 @@
     margin-left: 25px;
     background-color: white;
 }
+.digital-comics-custom-img{
+    background-image: url('https://terrigen-cdn-dev.marvel.com/content/prod/1x/newmu_base_set_dsk.jpg');
+}
+.marvel-unlimited-custom-img{
+    background-image: url('https://terrigen-cdn-dev.marvel.com/content/prod/1x/0420_mu_base_set_dsk.jpg');
+}
+.comic-image-description{
+    grid-row: 3;
+    color: #999;
+    font-size: .80em;
+}
+.comic-image{
+    position: relative;
+    height: 250px;
+    width: auto;
+    transition: linear 5s;
+    grid-row: 1;
+}
+.comic-image img{
+    height: 100%;
+    box-shadow: black ;
+}
+.comic-image-title{
+
+    color: #151515;
+    grid-row: 2;
+}
+.comic-transition:hover > .comic-image-title{
+    color: red
+}
+
+.comic-transition:hover > .comic-image{
+    
+    bottom: 10px;
+ }

@@ -16,6 +16,7 @@ body, html{
     width: 100%;
 }
 .grid-4{
+    margin-bottom: 1em;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto auto auto;
@@ -25,6 +26,10 @@ body, html{
     grid-template-columns: repeat(15, 25%) !important;
     overflow-y: hidden;
     overflow-x: scroll;
+}
+.comic-grid{
+    
+    grid-template-columns: repeat(15, 166px) !important;
 }
 .wrapper1240{
     max-width: 1240px;
