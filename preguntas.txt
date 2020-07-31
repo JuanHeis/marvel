@@ -1,5 +1,7 @@
     # Preguntas que se me ocurrieron mientras hacia este proyecto
 
-    A ver gaston
+    Por que la imagen de los comics se esconde.
+
+    Como se hacen los botones de con bordes cortados. es una pieza compleja con varios elementos encimados?
 
     

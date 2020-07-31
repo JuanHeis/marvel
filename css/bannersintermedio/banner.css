@@ -75,6 +75,17 @@
 .marvel-unlimited-custom-img{
     background-image: url('https://terrigen-cdn-dev.marvel.com/content/prod/1x/0420_mu_base_set_dsk.jpg');
 }
+
+
+
+
+.comic-container{
+    position: relative;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .comic-image-description{
     grid-row: 3;
     color: #999;
@@ -84,23 +95,24 @@
     position: relative;
     height: 250px;
     width: auto;
-    transition: linear 5s;
+    transition: all .25s ease;
     grid-row: 1;
+    bottom: 0;
 }
 .comic-image img{
     height: 100%;
     box-shadow: black ;
 }
 .comic-image-title{
-
+    padding-top: 1em;
+    padding-bottom: .5em;
     color: #151515;
     grid-row: 2;
 }
-.comic-transition:hover > .comic-image-title{
+.comic-container:hover .comic-image-title{
     color: red
 }
 
-.comic-transition:hover > .comic-image{
-    
+.comic-container:hover .comic-image{
     bottom: 10px;
  }
