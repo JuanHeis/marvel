@@ -1,23 +1,30 @@
 .banner{
-    background-color: #151515;
-    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
-    height: 55vh;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
     
+    background-color: #151515;
+    color: white;
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+    height: 560px;
+    position: relative;
 }
-
+.digital-comic-image{
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 20% 100%);
+    background-position: center;
+    width: 50%;
+    height: inherit;
+    position:absolute;
+    right: 0;
+    top: 0;
+}
+.digital-comic-text{
+    width: 50%;
+    height: inherit;
+}
 .banner-relleno{
     margin-right: auto;
     width: 100px;
     height: 100%;
     background-color: #151515;
     clip-path: polygon(0 0, 0 0, 100% 100%, 0% 100%);
-}
-#digital-comics{
-    display: block;
 }
 
 .info-banner{

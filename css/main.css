@@ -1,8 +1,7 @@
 body, html{
     padding: 0;
     margin: 0;
-    font: 900 16px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
-    
+    font-family: 'Roboto Condensed';
 }
 
 .sticky-menu{
@@ -33,6 +32,8 @@ body, html{
 }
 .wrapper1240{
     max-width: 1240px;
+    margin: auto;
+    height: inherit;
 }
 
 .grid4-image-container img{
@@ -43,18 +44,17 @@ body, html{
     height: 100%;
 }
 
-::-webkit-scrollbar {
-    height: 10px;
+.overflow-grid::-webkit-scrollbar {
+    height: 3px;
+}
+.overflow-grid::-webkit-scrollbar-track {
+    width: 2px;
+    background-color: white;
+    background: url('../images/elpixel.png') center repeat-x;
 
 }
-::-webkit-scrollbar-track {
-    width: 2px;
-    background: rgb(85, 85, 85)
-}
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
-  ::-webkit-scrollbar-thumb {
+  .overflow-grid::-webkit-scrollbar-thumb {
     width: 50px;
+    height: 2px;
     background: red;
   }
