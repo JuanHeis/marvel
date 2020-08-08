@@ -1,0 +1,13 @@
+.latest-hypebox{
+    display: flex;
+    flex-direction: row;
+}
+.latest{
+    min-width: 70%;
+    display: flex;
+    border: 1px solid red;
+    margin: 0;
+}
+.latest h1{
+    display: inline;
+}

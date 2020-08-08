@@ -1,0 +1,13 @@
+.hypebox{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    padding: 0 2em;
+}
+.header-hypebox{
+    text-align: center;
+    font-weight: 400;
+}
+.header-hypebox h1{
+    text-transform: uppercase;
+}
