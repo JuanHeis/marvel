@@ -24,7 +24,6 @@ body, html{
 }
 .overflow-grid{
     grid-template-columns: repeat(15, 25%) !important;
-    overflow-y: hidden;
     overflow-x: scroll;
 }
 .comic-grid{
