@@ -2,12 +2,72 @@
     display: flex;
     flex-direction: column;
     max-width: 30%;
-    padding: 0 2em;
 }
 .header-hypebox{
+    padding: 0 2em;
     text-align: center;
     font-weight: 400;
 }
 .header-hypebox h1{
     text-transform: uppercase;
+}
+.grid-hypebox{
+    display: grid;
+    padding: 0 2em;
+}
+.hype-box-divisor{
+    height: 1px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.grid-hypebox-element{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    display: flex;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.grid-hypebox-element img{
+    max-width: 100px;
+    height: 50px;
+}
+.grid-hypebox-element-text{
+    padding-left: 1em;
+}
+
+.grid-hypebox-element-category{
+    font-size: .875rem;
+    color: #999;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.grid-hypebox-element-title{
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.end-grid-container, .start-grid-container{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.end-grid-container{
+    bottom: 50px;
+}
+.start-grid-container{
+    top: 40px
+}
+.end-grid, .start-grid{
+    width: 40%;
+    position: relative;
+    height: 75px;
+}
+.end-grid{
+    margin-left: auto;
+    border-bottom: 2px solid goldenrod;
+    border-right: 2px solid goldenrod;
+}
+.start-grid{
+    margin-right: auto;
+    border-top: 2px solid goldenrod;
+    border-left: 2px solid goldenrod;
 }

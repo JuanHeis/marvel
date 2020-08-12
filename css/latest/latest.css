@@ -1,9 +1,10 @@
 .latest-hypebox{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .latest{
-    min-width: 70%;
+    min-width: 65%;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -50,8 +51,4 @@
     font-weight: 400;
     border: 1px solid green;
     font-stretch: extra-condensed;
-    
-}
-.stretch{
-    font-stretch: ultra-condensed;
 }
