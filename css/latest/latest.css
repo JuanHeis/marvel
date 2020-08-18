@@ -3,6 +3,15 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.reward-latest{
+    height: 24px;
+    width: 24px;
+    border: 1px solid red;
+
+}
+.insider{
+    fill: #202020;
+}
 .latest{
     min-width: 65%;
     display: flex;
@@ -24,6 +33,9 @@
     background-color: teal;
 }
 .latest-element-text{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
     width: 50%;
     padding-left: 1.5em;
 }
