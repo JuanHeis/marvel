@@ -27,10 +27,13 @@
     display: grid;
     grid-auto-columns: 100%;
 }
-.fakeelementimage{
+.element-image{
     height: 250px;
     width: 50%;
-    background-color: teal;
+}
+
+.element-image img{
+    width: 100%;
 }
 .latest-element-text{
     /* display: flex;
@@ -47,13 +50,12 @@
     width: auto;
 }
 .latest-category{
-    border: 1px solid red;
+    
     font-size: .875rem;
     text-transform: uppercase;
     font-weight: 400;
 }
 .latest-title{
-    border: 1px solid blue;
     font-size: 1.25rem;
     text-transform: capitalize;
 }
@@ -61,6 +63,5 @@
     font-size: .75rem;
     text-transform: uppercase;
     font-weight: 400;
-    border: 1px solid green;
     font-stretch: extra-condensed;
 }

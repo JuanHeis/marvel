@@ -44,17 +44,26 @@ body, html{
     height: 100%;
 }
 
-.overflow-grid::-webkit-scrollbar {
+.overflow-grid::-webkit-scrollbar, .grid-video::-webkit-scrollbar{
     height: 3px;
 }
-.overflow-grid::-webkit-scrollbar-track {
+.overflow-grid::-webkit-scrollbar-track{
     width: 2px;
     background-color: white;
     background: url('../images/elpixel.png') center repeat-x;
 
 }
-  .overflow-grid::-webkit-scrollbar-thumb {
+.grid-video::-webkit-scrollbar-track{
+    width: 2px;
+    background-color: white;
+    background: url('../images/elpixel.png') center repeat-y;
+} 
+  .overflow-grid::-webkit-scrollbar-thumb, .grid-video::-webkit-thumb {
     width: 50px;
     height: 2px;
+    background: red;
+  }
+  .grid-video::-webkit-thumb{
+    width: 2px;
     background: red;
   }

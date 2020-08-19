@@ -1,4 +1,64 @@
 .grid-video{
+    padding-left: 1em;
+    padding-right: 1em;
     display: grid;
     grid-gap: 25px;
+    overflow-y: scroll;
+}
+.marvel-videos{
+    display: flex;
+    overflow-y: hidden;
+    
+    max-height: 500px;
+}
+.image-video-element{
+    
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+}
+/*Imagenes video*/
+.first-video{
+    background-image: url('https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6178909751001_180fa54bf1aa3866168b17397d9fe477.jpg');
+}
+.second-video{
+    background-image: url('https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6178883711001_dbdd22ec2fb24256d400e45650f83c1b.jpg');
+}
+
+
+
+.icon-play-text{
+    position: relative;
+    display: flex;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 60%);
+    transition: 300ms;
+}
+.video{
+    width: 900px;
+    height: 500px;
+    background-color: red;
+
+}
+.icon-video, .text-video{
+    transition: 300ms;
+    align-self: flex-end;
+}
+.text-video{
+    max-width: 80%;
+}
+.icon-video{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+}
+.icon-play-text:hover{
+    
+    background-color: rgba(255, 255, 255, 0%);
+}
+.icon-play-text:hover > .text-video{
+    display: none;
+}
+.icon-play-text:hover > .icon-video{
+    background-color: red;
 }
