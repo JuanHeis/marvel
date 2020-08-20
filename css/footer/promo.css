@@ -1,0 +1,31 @@
+.promo{
+    background-color: black;
+    margin-top: 2rem;
+    letter-spacing: 1.5px;
+}
+.promo-container{
+    display: flex;
+}
+.img-promo{
+    margin: 0;
+}
+.button-promo{
+    align-self: center;
+    width: 160px;
+}
+.info-promo{
+    color: #E62429;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.termsandcond-promo{
+    margin-top: 50px;
+}
+.promo-text{
+    width: 100%;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
