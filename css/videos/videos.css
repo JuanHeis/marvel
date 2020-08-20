@@ -8,11 +8,9 @@
 .marvel-videos{
     display: flex;
     overflow-y: hidden;
-    
     max-height: 500px;
 }
 .image-video-element{
-    
     background-size: cover;
     width: 250px;
     height: 150px;
@@ -24,9 +22,18 @@
 .second-video{
     background-image: url('https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6178883711001_dbdd22ec2fb24256d400e45650f83c1b.jpg');
 }
-
-
-
+.third-video{
+    background-image: url('https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6178905769001_678b625ce131fc1662b48e1dfb3009bf.jpg');
+}
+.fourth-video{
+    background-image: url('https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6178875295001_7bab2f27dad19ab42124af0c6d4032ba.jpg');
+}
+.fiveth-video{
+    background-image: url('https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6178917847001_4f9f8723f7c39b522679eb24e5d11e08.jpg');
+}
+.sixth-video{
+    background-image: url('https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6175864877001_00463fd994b82b2f67a6ef688e28ad1b.jpg')
+}
 .icon-play-text{
     position: relative;
     display: flex;
@@ -38,7 +45,7 @@
     width: 900px;
     height: 500px;
     background-color: red;
-
+    background-size: cover;
 }
 .icon-video, .text-video{
     transition: 300ms;
@@ -46,6 +53,12 @@
 }
 .text-video{
     max-width: 80%;
+    padding-left: .6em;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    font-size: .7rem;
+    font-weight: 600;
+
 }
 .icon-video{
     background-color: white;
@@ -61,4 +74,18 @@
 }
 .icon-play-text:hover > .icon-video{
     background-color: red;
+}
+.video-data{
+    margin-top: 2em;
+}
+.video-category{
+    font-weight: 600;
+    margin-top: 1em;
+    text-transform: uppercase;
+    color: red;
+    font-size: .665em;
+}
+.video-title{
+    margin-top: .25em;
+    font-size: 1.45em;
 }
