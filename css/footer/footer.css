@@ -1,0 +1,83 @@
+footer{
+    background-color: #151515;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.footer-container{
+    justify-content: space-between;
+    display: flex;
+    height: 100px;
+    color: white;
+    font-size: .815rem;
+}
+.logo{
+    width: 80px;
+}
+.footer-element span{
+    
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+    font-weight: 700;
+}
+.footer-element div{
+    margin-bottom: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.footer-element-flex{
+    letter-spacing: 1px;
+    margin: 0;
+    display: flex;
+}
+.footer-element-flex div{
+    margin: 0;
+}
+.footer-element-flex-img{
+    margin: 0;
+    margin-right: 1.5em;
+    height: 28px;
+}
+.footer-element-flex-img img{
+    height: 100%;
+}
+.footer-element-flex-text h4{
+    margin: 0;
+}
+.footer-element-flex-text span{
+    margin: 0;
+    font-weight: 400;
+}
+.icon-gray{
+    fill: rgb(153,153, 153);
+    transition: .4s ease;
+}
+.icon-gray:hover{
+    fill: white;
+}
+.follow-marvel-icons{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+.footer-legal{
+    font-size: 12px;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.footer-legal span {
+    color: rgb(153,153, 153);
+    transition: .4s;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.copyright{
+    margin-top: 2rem;
+    color: rgb(153,153, 153);
+    text-align: center;
+    font-size: 12px;
+}
+.footer-legal span:hover{
+    color: white;
+}

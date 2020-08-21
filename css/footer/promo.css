@@ -9,6 +9,10 @@
 .img-promo{
     margin: 0;
 }
+
+.img-promo img{
+    vertical-align: bottom;
+}
 .button-promo{
     align-self: center;
     width: 160px;
